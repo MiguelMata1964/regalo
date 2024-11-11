@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const r = Math.floor(Math.random() * 256); // Genera un número aleatorio entre 0 y 255 para el rojo
         const g = Math.floor(Math.random() * 256); // Genera un número aleatorio entre 0 y 255 para el verde
         const b = Math.floor(Math.random() * 256); // Genera un número aleatorio entre 0 y 255 para el azul
-        return `rgb(${b}, ${b}, ${r})`; // Devuelve el color en formato RGB
+        return `rgb(${r}, ${g}, ${b})`; // Devuelve el color en formato RGB
     }
 
     // Función para crear un fuego artificial con múltiples partículas.
